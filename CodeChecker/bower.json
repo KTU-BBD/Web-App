@@ -1,0 +1,10 @@
+{
+  "name": "CodeChecker",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "angularjs#^1.6.3",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

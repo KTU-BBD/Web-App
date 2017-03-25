@@ -1,4 +1,4 @@
-# CodeChecker
+# CodeChecker [![Build Status](https://travis-ci.org/KTU-BBD/Web-App.svg?branch=master)](https://travis-ci.org/KTU-BBD/Web-App)
 
 ASP.NET C# MVC5 project.
 

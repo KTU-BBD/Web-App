@@ -1,7 +1,6 @@
 ﻿using System.Web.Mvc;
 using CodeChecker.Controllers;
 using NUnit.Framework;
-using Assert = Microsoft.VisualStudio.TestTools.UnitTesting.Assert;
 
 namespace CodeChecker.Tests.Controllers
 {

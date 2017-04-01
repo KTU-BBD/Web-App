@@ -1,4 +1,4 @@
-###################
+﻿###################
 # compiled source #
 ###################
 *.com
@@ -81,3 +81,5 @@ plugins.js
 bower_components/
 node_modules/
 .sass-cache/
+App_Data/*.*
+fonts/

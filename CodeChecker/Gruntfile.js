@@ -10,7 +10,7 @@ module.exports = function(grunt) {
             APP_PATH: "src/assets/app",
             JS_DEPLOY_PATH: "Scripts",
             CSS_DEPLOY_PATH: "Content",
-            FONT_DEPLOY_PATH: "Content/fonts",
+            FONT_DEPLOY_PATH: "fonts",
             VENDOR_PATH: "bower_components",
             SCSS_ASSET_PATH: "Assets/Scss",
             JS_ASSET_PATH: "Assets/Angular"
@@ -19,16 +19,17 @@ module.exports = function(grunt) {
             jsDepepndencies: {
                 files: {
                     "<%= config.JS_DEPLOY_PATH  %>/plugins.js": [
-                        "<%= config.VENDOR_PATH  %>/angular/angular.js"
+                        "<%= config.VENDOR_PATH  %>/angular/angular.js",
+                        "<%= config.VENDOR_PATH  %>/angular-ui-router/release/angular-ui-router.js"
                     ]
                 }
             },
             cssDependencies: {
                 files: {
                     "<%= config.CSS_DEPLOY_PATH  %>/plugins.css": [
-                        "<%= config.VENDOR_PATH  %>/bootstrap/dist/css/bootstrap.min.css",
-                        "<%= config.VENDOR_PATH  %>/bootstrap/dist/css/bootstrap-theme.min.css",
-                        "<%= config.VENDOR_PATH  %>/font-awesome/css/font-awesome.min.css"
+                        "<%= config.VENDOR_PATH  %>/bootstrap/dist/css/bootstrap.css",
+                        "<%= config.VENDOR_PATH  %>/bootstrap/dist/css/bootstrap-theme.css",
+                        "<%= config.VENDOR_PATH  %>/font-awesome/css/font-awesome.css"
                     ]
                 }
             }

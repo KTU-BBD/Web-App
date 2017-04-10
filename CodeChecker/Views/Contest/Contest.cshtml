@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "app-contest";
+}
+@section Scripts {
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script> 
+    <script type="text/javascript" src="~/Scripts/Angular/Contest/app-contest.js"></script>
+    <script type="text/javascript" src="~/Scripts/Libs/angular-route.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/Angular/Contest/contest.js"></script>
+}
+
+<div class="row" ng-app="app-contest">
+    
+    <div ng-view></div>
+    <div>{{2+2}}</div> 
+   
+</div>
